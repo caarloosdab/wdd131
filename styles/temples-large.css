@@ -1,0 +1,53 @@
+@media screen and (min-width: 600px) {
+
+    main{
+        margin-top: 80px;
+        
+        width: 90%;
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+    main h2{
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+
+    nav{
+        align-items: center;
+    }
+
+    #menu{
+        display:none
+    }
+
+    .navigation {
+		flex-direction: row;
+	}
+
+    header h1{
+        color: #fff;
+        margin: 20px;
+        float: inline-start;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navigation a{
+        display: inline-block;
+		flex: 1 1 100%;
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    
+    nav a:hover{
+        color: #ffb703;
+        text-decoration: overline;
+    }
+
+
+}
