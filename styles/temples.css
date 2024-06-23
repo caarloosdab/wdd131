@@ -33,7 +33,8 @@ header h1{
 }
 
 #menu::before {
-	content: "☰";    
+	content: "☰";
+    color: #fff;    
 }
 
 .navigation.active::before {
