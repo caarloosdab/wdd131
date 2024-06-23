@@ -1,6 +1,8 @@
 @media screen and (min-width: 600px) {
 
     header{
+        align-items: center;
+        margin: 0 auto;
         width: 100%;
     }
 
@@ -27,9 +29,6 @@
         display:none
     }
 
-    .navigation {
-		flex-direction: row;
-	}
 
     header h1{
         color: #fff;
@@ -40,8 +39,8 @@
     }
     
     .navigation a{
-        display: inline-block;
-		flex: 1 1 100%;
+        float: inline-end;
+        margin-left: 20px;
         color: #fff;
         text-decoration: none;
         padding: 1rem;
