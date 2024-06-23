@@ -9,7 +9,8 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
 	hamButton.classList.toggle('open');
 
-year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
+    year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
+
 
 
 const date = document.lastModified
