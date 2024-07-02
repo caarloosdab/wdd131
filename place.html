@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="author" content="Carlos De Avila">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>I T A L Y</h1>
+    </header>
+    <section class="hero">
+        <picture>
+            <source srcset="images/Italy-large.webp" media="(min-width: 800px)">
+            <source srcset="images/Italy.webp" media="(max-width: 600px)">
+            <img src="images/Italy.webp" alt="Hero Image">
+        </picture>
+    </section>
+
+    <div class="data">
+        <h2><b>Data</b></h2>
+        <p><b>Area: </b>302.07 Kkm²</p>
+        <p><b>Population: </b>58,697,744</p>
+        <p><b>Capital: </b>Roma</p>
+        <p><b>Languages:</b> Italian</p>
+        <p><b>Currency:</b> Euro</p>
+        <p><b>Time Zone:</b> UTC+2</p>
+        <p><b>Calling code:</b> +39</p>
+        <p><b>Internet TLD:</b> .it</p>
+    </div>
+
+    
+    <div class="weather">
+        <h2><b></b>Weather <span class="weather-icon"></span></h2>
+        <picture class="weather-img">
+            <source srcset="images/sun_sunny_icon.png" media="(max-width: 600px)">
+            <img src="images/sun_sunny_icon.png" alt="sunny icon">
+        </picture>
+        <p><b>Temperature: </b><span id="temperature">15°C</span></p>
+        <p><b>Wind Speed: </b><span id="wind-speed">10 km/h</span></p>
+        <p><b>Wind Chill: </b><span id="wind-chill"></span></p>
+    </div>
+    
+    <footer>
+        <p>&copy; <span id="current-year"></span> Carlos De Avila Bravo | Italy | Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
