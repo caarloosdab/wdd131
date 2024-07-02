@@ -29,7 +29,10 @@ header {
     border-bottom: 20px solid var(--secondary-color) ;
 }
 
+
+
 .hero img{
+
     width: 100%;
     height: auto;
 }
@@ -139,7 +142,10 @@ footer {
     .weather-img {
         visibility: visible;
         position: inherit;
-        width: 20px;
+    }
+
+    .weather-img img{
+        width: 100px; 
     }
 
 
