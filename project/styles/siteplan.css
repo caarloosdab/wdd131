@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
+/* Color Palette source https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+:root {
+    --saffron: #E9C46A;
+    --burnt-sienna: #E76F51;
+    --charcoal: #264653;
+    --sandy-brown: #F4A261;
+    --persian-green: #2a9d8f;
+
+
+    --default-font: 'Varela', sans-serif;
+    --heading-font: 'Secular One', sans-serif;
+
+    --border-radius: 0.5rem;
+    --max-width: 1000px;
+}
+html{
+    background-color: var(--sandy-brown);
+}
+
+html * {
+    font-family: var(--default-font);
+}
+
+body {
+    width: 80%;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
+h2, h3 {
+    color: var(--charcoal);
+}
+
+/* h1, nav, */main, footer {
+    border: 2px solid var(--charcoal);
+    padding: .5rem;
+}
+
+main, footer {
+    border-top: 0;
+}
+
+h1 {
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    margin: 1.5rem 0 0;
+    padding: 1rem;
+    background-color: var(--charcoal);
+    color: var(--sandy-brown);
+}
+#charcoal {
+    color: var(--charcoal);
+    background-color: var(--charcoal);
+}
+
+#burnt-sienna {
+    color: var(--burnt-sienna);
+    background-color: var(--burnt-sienna);
+}
+
+#saffron {
+    color: var(--saffron);
+    background-color: var(--saffron);
+    
+}
+
+#varela {
+    font-family: var(--default-font);
+    text-decoration: underline;
+}
+
+#secular-one {
+    font-family: var(--heading-font);
+    text-decoration: underline;
+}
+
+main {
+    max-width: var(--max-width);
+    margin: auto;
+    overflow: hidden;
+    background-color: var(--saffron);
+    padding: 2rem;
+}
+
+main a {
+    color: var(--charcoal);
+}
+
+footer {
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    background-color: var(--charcoal);
+    color: var(--burnt-sienna);
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+#lastModified {
+    font-size: small;
+}
