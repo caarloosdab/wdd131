@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index of Your Corner Store</title>
+    <meta name="description" content="This is the home page Your Corner Store">
+    <meta name="author" content="Carlos De Avila">
+    <link rel="stylesheet" href="styles/project.css">
+    <script defer src="scripts/siteplan.js"></script>
+    <script defer src="scripts/shopping-cart.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Your Corner Store</h1>
+        <nav id="links">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Categories</a>
+            <a href="info.html">info</a>
+        </nav>
+        <button class="hamburger"><p>☰</p></button>
+    </header>
+    <main>
+        <aside>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>SHOP</td>
+                    </tr>
+                    <tr>
+                        <td>Shopping Cart <br>
+                            <ul id="list"></ul>
+                            <p id="total">Total: 0</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </aside>
+        <section class="products">
+            
+            <figure>
+                <img loading="lazy" src="images/apple.png" alt="product" width="250">
+                <p>Apple</p>
+                <p>Price: $6</p>
+                <button type="submit" id="apple" class="bProducts">BUY</button>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/avocado.png" alt="product" width="250">
+                <p>Avocado</p>
+                <p>Price: $9</p>
+                <button type="submit" id="avocado" class="bProducts">BUY</button>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/banana.png" alt="product" width="250">
+                <p>Banana</p>
+                <p>Price: $11</p>
+                <button type="submit" id="banana" class="bProducts">BUY</button>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/ground-beef.jpg" alt="product" width="250">
+                <p>Ground beef</p>
+                <p>Price: $22</p>
+                <button type="submit" id="ground-beef" class="bProducts">BUY</button>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/meat.jpg" alt="product" width="250">
+                <p>meat</p>
+                <p>Price: $13</p>
+                <button type="submit" id="meat" class="bProducts">BUY</button>
+            </figure>
+            <figure>
+                <img loading="lazy" src="images/shrimp.jpg" alt="product" width="250">
+                <p>shrimp</p>
+                <p>Price: $16</p>
+                <button type="submit" id="shrimp" class="bProducts">BUY</button>
+            </figure>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Carlos De Avila | Mexico City</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
