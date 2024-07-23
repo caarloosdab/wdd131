@@ -154,6 +154,9 @@ form {
 
 
   @media screen and (max-width: 800px) {
+    aside {
+        grid-column: 1/5;
+    }
     .products, #cards-container {
         grid-template-columns: 1fr;
     }
