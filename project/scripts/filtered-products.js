@@ -11,42 +11,42 @@ const products = [
 	{
 	  productName: "Chicken Meat",
 	  category: "meat",
-	  price: 10,
+	  price: 13,
 	  imageUrl:
 	  "https://github.com/caarloosdab/wdd131/blob/main/project/images/meat.jpg?raw=true"
 	},
     {
         productName: "beef",
         category: "meat",
-        price: 10,
+        price: 22,
         imageUrl:
         "https://github.com/caarloosdab/wdd131/blob/main/project/images/ground-beef.jpg?raw=true"
     },
     {
         productName: "shrimp",
         category: "meat",
-        price: 10,
+        price: 16,
         imageUrl:
         "https://home-tyme.com/wp-content/uploads/2016/04/btckdshrimp-scaled.jpg"
     },
     {
         productName: "avocado",
         category: "fruit",
-        price: 10,
+        price: 9,
         imageUrl:
         "https://raw.githubusercontent.com/caarloosdab/wdd131/main/project/images/avocado.png"
     },
     {
         productName: "banana",
         category: "fruit",
-        price: 10,
+        price: 11,
         imageUrl:
         "https://raw.githubusercontent.com/caarloosdab/wdd131/main/project/images/banana.png"
     },
     {
         productName: "apple",
         category: "fruit",
-        price: 10,
+        price: 6,
         imageUrl:
         "https://raw.githubusercontent.com/caarloosdab/wdd131/main/project/images/apple.png"
     }
@@ -78,7 +78,7 @@ function sortCards(category) {
           <img loading="lazy" src="${product.imageUrl}" alt="${product.productName}" width= 250 >
           <h2>${product.productName}</h2>
           <p>Price: $${product.price}</p>
-          <button> BUY </button>
+          <button onclick="window.location.href='index.html';"> BUY </button>
         </div>
       `;
       cardsContainer.innerHTML += cardHTML;
